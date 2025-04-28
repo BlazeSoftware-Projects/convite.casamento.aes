@@ -1,0 +1,163 @@
+body
+{
+    background-color: #e5decf;
+}
+
+.envelope-txt
+{
+    margin-top: -3vh;
+}
+
+
+@media screen and (max-width: 768px) /* Celular */
+{
+
+    .titleImg
+    {
+        height: 3vh !important;
+    }
+
+    .envelopImg
+    {
+        height: 35vh;
+        margin-left: 10vw;
+    }
+
+    .circle-btn
+    {
+        height: 10vh;
+        
+    }
+
+    .menu-btn
+    {
+        margin-left: 1vw;
+        margin-right: 2vw;
+        
+    }
+
+    .menu-a
+    {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .menu-row
+    {
+        margin-right: 0vw;
+    }
+
+    .menu
+    {
+        padding-right: 2vw;
+    }
+
+    .flag
+    {
+        height: 10vh;
+        
+    }
+
+    .DivFlag
+    {
+        margin-top: -2.5vh;
+        text-align: center;
+    }
+
+    .home-btn
+    {
+        height: 10vh;
+        
+    }
+
+    .voltar
+    {
+        position: fixed !important;
+        bottom: 8px; /* Distância do fundo da tela */
+        right: 8px; /* Distância da lateral da tela */
+        
+        cursor: pointer; /* Cursor do tipo "mão" */
+    }
+
+    .imap
+    {
+        width: 95vw;
+        height: 40vh;
+    }
+
+    .map
+    {
+        width: 80vw;
+    }
+
+    .form
+    {
+        width: 95vw;
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 1024px) /* Desktop */
+{
+    .titleImg
+    {
+        height: 3vh !important;
+    }
+
+    .envelopImg
+    {
+        height: 45vh;
+        margin-left: 3vw;
+    }
+
+    .circle-btn
+    {
+        height: 15vh;
+    }
+
+   .menu-row
+   {
+        margin-left: 12vw;
+   }
+
+   .flag
+    {
+        height: 20vh;
+        
+    }
+
+    .DivFlag
+    {
+        margin-top: -3vh;
+        text-align: center;
+    }
+
+
+    .home-btn
+    {
+        height: 10vh;
+        
+    }
+
+    .voltar
+    {
+        position: fixed;
+        bottom: 20px; /* Distância do fundo da tela */
+        right: 20px; /* Distância da lateral da tela */
+        
+        cursor: pointer; /* Cursor do tipo "mão" */
+    }
+}
+
+.alef-regular {
+    font-family: "Alef", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .alef-bold {
+    font-family: "Alef", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
